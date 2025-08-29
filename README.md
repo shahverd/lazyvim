@@ -1,17 +1,8 @@
-# 💤 LazyVim
-
-Do a fresh installation using this command:
-
-    rm -fr ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim && git clone https://github.com/shahverd/lazyvim  ~/.config/nvim
-
-
-
 How to install 
 ==============
 
-For some reasons I decided to partially track my lazyvim setup, instead of a full repo of the config files.
-So for installation you should first install lazyvim:
+For some reasons I’ve chosen to partially track my LazyVim setup rather than maintaining a full repository of configuration files. To get started, you’ll first need to install LazyVim:
 
     rm -fr ~/.config/nvim ~/.local/share/nvim ~/.local/state/nvim ~/.cache/nvim && git clone https://github.com/LazyVim/starter ~/.config/nvim
 
-Then copy the contents of the `lua/plugins`, `lua/configs` and `init.lua` to your local folder.
+Then manually copy the contents of the `lua/plugins/`, `lua/configs/` and `init.lua` to your local configuration.
