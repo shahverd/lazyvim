@@ -50,11 +50,6 @@ return {
                     end,
                 },
             }
-            -- Keybindings for stopping the debuger
-            vim.keymap.set("n", "<leader>dx", function()
-                dap.terminate()
-                dapui.close()
-            end, { desc = "Debug: Terminate" })
         end,
     },
 }
