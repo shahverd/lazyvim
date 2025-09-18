@@ -6,7 +6,12 @@
 local dap = require("dap")
 
 -- Start/continue
-vim.keymap.set("n", "<leader>dc", dap.continue, { desc = "Continue/Start Debugging" })
+vim.keymap.set("n", "<leader>dc", dap.continue, { desc = "Continue/Start Debugging" })]
+vim.keymap.set("n", "<leader>dx", function()
+    dap.terminate()
+    dapui.close()
+end, { desc = "Debug: Terminate" })
+
 -- Step controls
 vim.keymap.set("n", "<leader>do", dap.step_over, { desc = "Step Over" })
 vim.keymap.set("n", "<leader>di", dap.step_into, { desc = "Step Into" })
